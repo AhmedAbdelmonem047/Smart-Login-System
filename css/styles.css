@@ -1,0 +1,36 @@
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    color: #17a2b8;
+}
+
+.input-card {
+    box-shadow: 0px 5px 50px -10px rgba(0, 0, 0, 1);
+}
+
+input,
+textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+.reroute {
+    cursor: pointer;
+}
+
+.reroute:hover {
+    text-decoration: underline;
+}
