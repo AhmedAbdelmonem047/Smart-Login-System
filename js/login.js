@@ -1,6 +1,6 @@
 // ----------Routing---------- //
 // Remove path name from url
-history.pushState({}, "", "/");
+// history.pushState({}, "", "/");
 
 // If a user is already logged in, redirect to home page untill the user logs out
 if (localStorage.getItem('sessionKey') != null)
