@@ -1,5 +1,5 @@
 // Remove path name from url
-history.pushState({}, "", "/");
+// history.pushState({}, "", "/");
 
 // ----------All variables---------- //
 const logOutBtn = document.getElementById('logOutBtn');
